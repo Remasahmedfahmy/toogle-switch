@@ -1,0 +1,29 @@
+*{
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    width: 28%;
+    height: 163px;
+    background: black;
+    border-radius: 98px;
+    position: absolute;
+    left: 35%; 
+    top: 29%;
+}
+.box{
+    width: 36%;
+    height: 151px;
+    background: white;
+    border-radius: 98px;
+    position: absolute;
+    left: 15px;
+    top: 7px;
+    cursor: pointer;
+}
+.active{
+    transition: 0.5s;
+    left: 60%;
+}
